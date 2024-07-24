@@ -1,0 +1,213 @@
+.body {
+    background-color: #EEEEEE;
+    margin: 0;
+}
+
+.hr {
+    border: 2px dashed #0F044C;
+    width: 5%;
+    margin-bottom: 100px
+}
+
+/* Fonts */
+.hammersmith-one-regular {
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    font-size: 7rem;
+    font-style: normal;
+    margin: 10px;
+    padding-top: 75px;
+  }
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.bio {
+    color: #0F044C;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* Headers and Paragraph tags */
+
+h2 {
+    font-size: 3rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin: 10px;
+    color: #0F044C
+}
+
+h3 {
+    color: #0F044C;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h4 {
+    color:#0F044C;
+}
+
+
+/* Introduction */
+.intro-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 75vh;
+    background-color: #0F044C;
+    color: #EEEEEE;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.intro-container > h2 {
+    color: #EEEEEE
+}
+
+/* Whoami */
+.about-me-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 75vh;
+    margin-top: 5px;
+    margin-bottom: 75px;
+}
+
+.whoami {
+    margin-left: 75px;
+    margin-right: 200px;
+}
+
+.profilepic {
+    height: 500px;
+    border: 5px solid #787A91;
+    border-radius: 25%;
+    margin-left: 300px
+}
+
+/* Background */
+
+.background-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin-bottom: 75px;
+}
+
+.attribute {
+    border-radius: 24%;
+    height: 180px;
+    width: 300px;
+    margin: 10px;
+    border: 5px solid #787A91;
+}
+
+.list-features {
+    padding: 0;
+    margin-left: 30px;
+    color:#0F044C
+}
+
+.badges > img {
+    margin-left: 50px;
+}
+
+/* Projects */
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin-bottom: 100px;
+}
+
+.Projects {
+    height: 300px;
+    width: 400px;
+    border: 5px solid #787A91;
+    border-radius: 19%;
+    margin: 10px;
+}
+
+/* Other Interests */
+
+.other-interests-grid {
+    display: grid;
+    gap: 10px;
+    background-color: #EEEEEE;
+    grid-template-rows: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
+    height: 125vh; 
+    width: 75%;
+    margin: 20px auto 75px auto;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Other-Interests-Pics {
+    height: 400px;
+    width: 375px;
+    border: 5px solid #787A91;
+    border-radius: 25%;
+}
+
+/*Sixth Container */
+.contact-me-container {
+    background-color: #EEEEEE;
+    height: 50vh;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.contact-button {
+    width: 100px;
+    height: 75px;
+    font-size: 1.25rem;
+    background-color: #0F044C;
+    color: #EEEEEE;
+    border-radius: 25%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px
+}
+
+.social-buttons {
+    margin: 20px;
+}
+
+/* Final Container */
+.final-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #0F044C;
+    color: #EEEEEE;
+    margin-bottom: none;
+}
+
